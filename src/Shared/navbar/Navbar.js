@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div className="navbar justify-between bg-base-100">
-            <div className="navbar md:w-4/12 justify-between md:justify-normal">
+            <div className="navbar md:w-4/12 justify-between lg:justify-normal">
                 <a className="btn btn-ghost normal-case text-xl md:text-2xl font-bold">Blogsite</a>
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">

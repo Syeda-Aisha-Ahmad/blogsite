@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../../Shared/footer/Footer';
 import Navbar from '../../Shared/navbar/Navbar';
 import Newsletter from '../Newsletter';
 import AllPosts from './AllPosts';
@@ -15,7 +16,8 @@ const Home = () => {
             <AllPosts />
             {/* <hr /> */}
             {/* <Pagination/> */}
-            <Newsletter/>
+            <Newsletter />
+            <Footer/>
         </div>
     );
 };
