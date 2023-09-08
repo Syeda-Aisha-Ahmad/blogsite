@@ -2,7 +2,7 @@ import React from 'react';
 
 const Posts = () => {
     return (
-        <div className='px-2'>
+        <div className='px-2 mt-5'>
             <h2 className='font-bold text-3xl mb-10'>Recent blog posts</h2>
             <div className='lg:flex gap-5'>
                 {/* left side */}
