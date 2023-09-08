@@ -1,7 +1,9 @@
 import React from 'react';
 import Navbar from '../../Shared/navbar/Navbar';
+import Newsletter from '../Newsletter';
 import AllPosts from './AllPosts';
 import Banner from './Banner';
+import Pagination from './Pagination';
 import Posts from './Posts';
 
 const Home = () => {
@@ -10,7 +12,10 @@ const Home = () => {
             <Navbar />
             <Banner />
             <Posts />
-            <AllPosts/>
+            <AllPosts />
+            {/* <hr /> */}
+            {/* <Pagination/> */}
+            <Newsletter/>
         </div>
     );
 };

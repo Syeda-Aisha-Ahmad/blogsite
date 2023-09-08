@@ -4,7 +4,7 @@ const Posts = () => {
     return (
         <div className='px-2 mt-5'>
             <h2 className='font-bold text-3xl mb-10'>Recent blog posts</h2>
-            <div className='lg:flex gap-5'>
+            <div className='lg:flex gap-5 justify-center'>
                 {/* left side */}
                 <div className='lg:w-1/2'>
                     <img src="https://newschoolarch.edu/wp-content/uploads/2019/01/How-to-Become-a-Product-Designer.jpg" alt="" />

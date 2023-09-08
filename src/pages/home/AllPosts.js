@@ -4,7 +4,7 @@ const AllPosts = () => {
     return (
         <div className='mt-20 px-1 md:px-0'>
             <h2 className='font-bold text-3xl mb-10'>All blog posts</h2>
-            <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-y-10'>
+            <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-y-10 mx-auto'>
                 <div className="card rounded-none w-96 bg-base-100 shadow-xl">
                     <figure><img src="https://design.umn.edu/sites/design.umn.edu/files/2020-10/s18_pdes_studio_010.jpeg" alt="Shoes" /></figure>
                     <div className="card-body">
