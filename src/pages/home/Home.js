@@ -16,8 +16,7 @@ const Home = () => {
             <AllPosts />
             {/* <hr /> */}
             {/* <Pagination/> */}
-            <Newsletter />
-            <Footer/>
+            <Footer />
         </div>
     );
 };
